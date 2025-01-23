@@ -25,7 +25,7 @@ h6,
 p {
   line-height: 0.8;
 }
-.navbar{
+.navbar {
   top: 0;
   left: 0;
   position: absolute;
@@ -82,8 +82,9 @@ p {
 /* nav ended */
 
 /* Banner Started */
-#banner{
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/banner.jpg');
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/banner.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,11 +92,10 @@ p {
   padding-top: 297px;
   padding-bottom: 78px;
 }
-.banner_content{
+.banner_content {
   text-align: center;
- 
 }
-.banner_content p{
+.banner_content p {
   font-size: 18px;
   font-weight: 400;
   font-family: "kalpurush";
@@ -105,7 +105,7 @@ p {
   margin-top: 137px;
   margin-bottom: 137px;
 }
-.banner_search h2{
+.banner_search h2 {
   font-family: "kalpurush";
   font-size: 40px;
   font-weight: 400;
@@ -113,25 +113,25 @@ p {
   color: white;
   margin-bottom: 25px;
 }
-.search_bar{
+.search_bar {
   border-radius: 12px;
   background-color: white;
   padding: 6px;
   box-sizing: border-box;
 }
-.search_bar input{
+.search_bar input {
   width: 68%;
   border: none;
   padding-left: 37px;
   box-sizing: border-box;
 }
-.search_bar input:focus{
+.search_bar input:focus {
   outline: none;
 }
-.search_buttons{
+.search_buttons {
   width: 28%;
 }
-.search_buttons button{
+.search_buttons button {
   background-color: rgba(54, 163, 125, 1);
   padding: 21px 27px;
   border: none;
@@ -145,3 +145,35 @@ p {
   column-gap: 18px;
 }
 /* Banner Ended */
+
+
+/* About Part Css Start*/
+#about{
+  padding-top: 66px;
+  padding-bottom: 66px;
+  background-color: rgba(240, 240, 240, 1);
+  /* background: url('/images/background.svg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about_header h3{
+  color: rgba(54, 163, 125, 1);
+  font-family: "kalpurush";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 63px;
+}
+
+.about_header p{
+  color: rgba(98, 109, 125, 1);
+  font-family: "kalpurush";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 0 50px;
+  margin-top: 5px;
+}
+
+
+/* About Part Css End*/
