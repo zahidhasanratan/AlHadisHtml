@@ -25,49 +25,123 @@ h6,
 p {
   line-height: 0.8;
 }
+.navbar{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  padding-top: 50px;
+}
+/* nav started */
+.nav-item .nav-link {
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 !important;
+  padding: 0 20px !important;
+  transition: all linear 0.3s;
+  position: relative;
+  color: white;
+}
+.nav-item .nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: green;
+  transition: all linear 0.3s;
+}
 
-.nav-item .nav-link{
-    font-family: "kalpurush";
-    font-size: 20px;
-    font-weight: 400;
-    padding: 0 !important;
-    padding: 0 20px !important;
-    transition: all linear 0.3s;
-    position: relative;
-    color: white;
+.navbar-toggler button {
+  background-color: white;
 }
-.nav-item .nav-link:after{
-content: "";
-position: absolute;
-bottom: 0;
-left: 0;
-width: 0;
-height: 1.5px;
-background-color: green;
-transition: all linear 0.3s;
-}
-
-.navbar-toggler button{
-    background-color: white;
-}
-.nav-item .nav-link:hover:after{
-width: 100%;
+.nav-item .nav-link:hover:after {
+  width: 100%;
 }
 
 .navbar-collapse button {
-    border: 2px solid rgba(54, 163, 125, 1);
-    background-color: white;
-    display: flex;
-    align-items: center;
-    font-family: "kalpursh";
-    font-size: 20px;
-    font-weight: 400;
-    color: green;
-    column-gap: 12px;
-    padding: 0 !important;
-    padding: 11px 20px !important;
+  border: 2px solid rgba(54, 163, 125, 1);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  font-family: "kalpursh";
+  font-size: 20px;
+  font-weight: 400;
+  color: green;
+  column-gap: 12px;
+  padding: 0 !important;
+  padding: 11px 20px !important;
 }
-.navbar-collapse button:hover{
-    border: 2px solid rgba(54, 163, 125, 1);
-    background-color: white;
+.navbar-collapse button:hover {
+  border: 2px solid rgba(54, 163, 125, 1);
+  background-color: white;
 }
+
+/* nav ended */
+
+/* Banner Started */
+#banner{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/banner.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 297px;
+  padding-bottom: 78px;
+}
+.banner_content{
+  text-align: center;
+ 
+}
+.banner_content p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "kalpurush";
+  color: white;
+  line-height: 27px;
+  padding: 0 95px;
+  margin-top: 137px;
+  margin-bottom: 137px;
+}
+.banner_search h2{
+  font-family: "kalpurush";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 63px;
+  color: white;
+  margin-bottom: 25px;
+}
+.search_bar{
+  border-radius: 12px;
+  background-color: white;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.search_bar input{
+  width: 68%;
+  border: none;
+  padding-left: 37px;
+  box-sizing: border-box;
+}
+.search_bar input:focus{
+  outline: none;
+}
+.search_buttons{
+  width: 28%;
+}
+.search_buttons button{
+  background-color: rgba(54, 163, 125, 1);
+  padding: 21px 27px;
+  border: none;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  color: white;
+  column-gap: 18px;
+}
+/* Banner Ended */
